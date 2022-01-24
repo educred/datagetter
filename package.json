@@ -1,0 +1,33 @@
+{
+  "name": "datagetter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/docs": "^0.2.0",
+    "@googleapis/drive": "^0.3.1",
+    "@googleapis/sheets": "^0.3.0",
+    "@googleapis/youtube": "^2.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-hbs": "^2.4.0",
+    "express-session": "^1.17.2",
+    "googleapis": "^80.1.0",
+    "mongoose": "^5.13.5",
+    "object-scan": "^17.0.1",
+    "open": "^8.2.1",
+    "papaparse": "^5.3.1",
+    "server-destroy": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
